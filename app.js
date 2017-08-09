@@ -1,8 +1,9 @@
 "use strict";
+
 function saludar(nombre) {
     console.log("hola " + nombre);
 }
 var wolverine = {
-    nombre: "logan 5"
+    nombre: "logan 55"
 };
 saludar(wolverine.nombre);
