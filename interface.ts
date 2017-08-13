@@ -4,8 +4,8 @@ interface IPersona{
 }
 
 let persona:IPersona={
-    nombre: "jose",
-    apellido:"bascunan"
+    nombre: "juan",
+    apellido:"perez"
 }
 
 persona.nombre="puka";

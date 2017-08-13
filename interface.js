@@ -1,7 +1,7 @@
 "use strict";
 var persona = {
-    nombre: "jose",
-    apellido: "bascunan"
+    nombre: "juan",
+    apellido: "perez"
 };
 persona.nombre = "puka";
 persona.apellido = "";

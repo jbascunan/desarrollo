@@ -10,7 +10,17 @@
 
 <body>
     <!-- <script src="app2.js"></script> -->
-    <script src="interface.js"></script>
+    <!-- <script src="interface.js"></script>
+    <script src="usoClase.js"></script> -->
+    <script src="node_modules/systemjs/dist/system.js"></script>
+    <script>
+        SystemJS.config({
+            baseURL: '/',
+            defaultJSExtensions: true
+        });
+        SystemJS.import('usoClase.js');
+    </script>
 </body>
+<p>nada1</p>
 
 </html>
